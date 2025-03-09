@@ -30,7 +30,7 @@ export default async function RootLayout({
     <html lang="en" className={`${inter.variable} ${roboto_mono.variable}`}>
       <head />
       <body>
-        <div className="flex pt-2 flex-col min-h-screen bg-white dark:bg-gray-900">
+        <div className="flex pt-2 flex-col min-h-screen bg-black dark:bg-gray-900">
           <ExternalNavigation />
           <ClientLayout>{children}</ClientLayout>
           <Footer />

@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS
 public.community_tags (
-id uuid NOT NULL DEFAULT uuid_generate_v4(),
+id uuid NOT NULL DEFAULT uuid_generate_v4() PRIMARY KEY,
 tag character varying NOT NULL,
 created_at timestamp WITH time zone NOT NULL DEFAULT NOW()
 );
